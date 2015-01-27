@@ -6,12 +6,13 @@ define(['text', 'hogan'], function(text, hogan) {
     var hgn = {
         load: function(moduleName, parentRequire, onload, config) {
             var extension = (config.hgn && config.hgn.extension) || 'mustache';
+            var fileName = moduleName;
 
-            if (moduleName.lastIndexOf('.') < 0) {
-                moduleName += '.' + extension;
+            if (fileName.lastIndexOf('.') < 0) {
+                fileName += '.' + extension;
             }
 
-            text.get(parentRequire.toUrl(moduleName), function(data) {
+            text.get(parentRequire.toUrl(fileName), function(data) {
                 if(config.isBuild) {
                     buildCache[moduleName] = data;
                     onload();
