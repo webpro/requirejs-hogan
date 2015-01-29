@@ -1,6 +1,6 @@
 {
   "name": "requirejs-hogan",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Simple Hogan plugin for RequireJS.",
   "main": "hgn.js",
   "repository": {
