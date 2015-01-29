@@ -1,0 +1,16 @@
+{
+  "name": "requirejs-hogan",
+  "version": "0.0.1",
+  "description": "Simple Hogan plugin for RequireJS.",
+  "main": "hgn.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/webpro/requirejs-hogan.git"
+  },
+  "author": "Lars Kappert <lars@webpro.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/webpro/requirejs-hogan/issues"
+  },
+  "homepage": "https://github.com/webpro/requirejs-hogan"
+}
